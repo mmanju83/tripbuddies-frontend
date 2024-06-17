@@ -7,7 +7,7 @@ import Features11 from "@/components/homes/features/Features11";
 import Features8 from "@/components/homes/features/Features8";
 import Features9 from "@/components/homes/features/Features9";
 import Hero10 from "@/components/homes/heros/Hero10";
-import TestimonialsSix from "@/components/homes/testimonials/TestimonialsSix";
+ 
 import Tour2 from "@/components/homes/tours/Tour2";
 import FooterFour from "@/components/layout/footers/FooterFour";
 import Header9 from "@/components/layout/header/Header9";
@@ -34,7 +34,7 @@ export default function HomePage10() {
         <Features10 />
         <Features11 />
         <Banner14 />
-        <TestimonialsSix />
+    
         <ArticlesOne />
         <Banner15 />
         <FooterFour />

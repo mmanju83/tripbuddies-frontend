@@ -104,19 +104,19 @@ export const featuresFive = [
 export const featuresSix = [
   {
     id: 1,
-    imageSrc: "/img/cta/5/1.jpg",
+    imgSrc: "/img/cta.png",
     title: "Best staycation deals",
     description: "Enjoy these cool staycation promotions.",
   },
   {
     id: 2,
-    imageSrc: "/img/cta/5/2.jpg",
+    imgSrc: "/img/cta.png",
     title: "All Time Favourite Activities in Dubai",
     description: "Don't forget to check out these activities.",
   },
   {
     id: 3,
-    imageSrc: "/img/cta/5/3.jpg",
+    imgSrc: "/img/cta.png",
     title: "Discover the wow of Europe",
     description: "80% Discount",
   },

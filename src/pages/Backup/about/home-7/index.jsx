@@ -5,7 +5,7 @@ import TopAttractions from "@/components/homes/destinations/TopAttractions";
 import TrendingDestinations from "@/components/homes/destinations/TrendingDestinations";
 import Hero7 from "@/components/homes/heros/Hero7";
 
-import TestimonialOne from "@/components/homes/testimonials/TestimonialOne";
+
 import PopulerTours from "@/components/homes/tours/PopulerTours";
 import TourSlider4 from "@/components/homes/tours/TourSlider4";
 import FooterFive from "@/components/layout/footers/FooterFive";
@@ -30,9 +30,7 @@ export default function HomePage7() {
         <TrendingDestinations />
         <Banner />
         <TopAttractions />
-        <div className="bg-accent-1-05">
-          <TestimonialOne />
-        </div>
+        
         <PopulerTours />
         <Banner11 />
         <ArticlesOne />

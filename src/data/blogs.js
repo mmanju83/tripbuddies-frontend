@@ -1,7 +1,7 @@
 export const blogs = [
   {
     id: 1,
-    image: "/img/blogCards/1/1.png",
+    image: "/img/Trips-1.jpg",
     date: "April 06 2023",
     author: "Ali Tufan",
     title: "Kenya vs Tanzania Safari: The Better African Safari Experience",
@@ -11,7 +11,7 @@ export const blogs = [
   },
   {
     id: 2,
-    image: "/img/blogCards/1/2.png",
+    image: "/img/Trips-1.jpg",
     date: "April 07 2023",
     author: "Emily Johnson",
     title: "Exploring the Serengeti: A Wildlife Adventure",
@@ -22,7 +22,7 @@ export const blogs = [
   },
   {
     id: 3,
-    image: "/img/blogCards/1/3.png",
+    image: "/img/Trips-1.jpg",
     date: "April 08 2023",
     author: "Maxwell Rhodes",
     title: "Into the Wild: An Unforgettable Safari Journey",
@@ -33,7 +33,7 @@ export const blogs = [
   },
   {
     id: 4,
-    image: "/img/blogCards/1/4.png",
+    image: "/img/Trips-1.jpg",
     date: "April 09 2023",
     author: "Sophia Martinez",
     title: "Safari Photography: Capturing the Essence of Wildlife",
@@ -44,7 +44,7 @@ export const blogs = [
   },
   {
     id: 5,
-    image: "/img/blogCards/1/5.png",
+    image: "/img/Trips-1.jpg",
     date: "April 10 2023",
     author: "Elijah Williams",
     title: "Surviving the Safari: A Comprehensive Guide",
@@ -55,7 +55,7 @@ export const blogs = [
   },
   {
     id: 6,
-    image: "/img/blogCards/1/6.png",
+    image: "/img/Trips-1.jpg",
     date: "April 11 2023",
     author: "Ava Thompson",
     title: "Luxury Safari Experience: Where Comfort Meets Wilderness",
@@ -66,7 +66,7 @@ export const blogs = [
   },
   {
     id: 7,
-    image: "/img/blogCards/1/7.png",
+    image: "/img/Trips-1.jpg",
     date: "April 12 2023",
     author: "Oliver Davis",
     title: "African Safari: A Journey Through Nature’s Wonders",
@@ -77,7 +77,7 @@ export const blogs = [
   },
   {
     id: 8,
-    image: "/img/blogCards/1/8.png",
+    image: "/img/Trips-1.jpg",
     date: "April 13 2023",
     author: "Harper Garcia",
     title: "Safari Camping Tips: Making the Most of the Wild Outdoors",
@@ -87,7 +87,7 @@ export const blogs = [
   },
   {
     id: 9,
-    image: "/img/blogCards/1/9.png",
+    image: "/img/Trips-1.jpg",
     date: "April 14 2023",
     author: "Evelyn Cooper",
     title: "The Beauty of Wildlife: A Safari Perspective",
@@ -103,19 +103,19 @@ export const recantBlogs = [
     id: 10,
     title: "10 of the Best Solo Travel Destinations for Women",
     date: "April 06 2023",
-    image: "/img/blogCards/1/1.png",
+    image: "/img/Trips-1.jpg",
   },
   {
     id: 11,
     title: "Another Blog Title",
     date: "May 15 2023",
-    image: "/img/blogCards/1/1.png",
+    image: "/img/Trips-1.jpg",
   },
   {
     id: 12,
     title: "Yet Another Blog Title",
     date: "June 22 2023",
-    image: "/img/blogCards/1/1.png",
+    image: "/img/Trips-1.jpg",
   },
 ];
 

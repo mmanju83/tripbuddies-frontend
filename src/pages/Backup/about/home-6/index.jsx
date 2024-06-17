@@ -6,7 +6,7 @@ import Features5 from "@/components/homes/features/Features5";
 import FeaturesOne from "@/components/homes/features/FeaturesOne";
 import Hero6 from "@/components/homes/heros/Hero6";
 import SpacialOffer from "@/components/homes/others/SpacialOffer";
-import TestimonialsThree from "@/components/homes/testimonials/TestimonialsThree";
+ 
 import TourTypes3 from "@/components/homes/tourTypes/TourTypes3";
 import TourSlider3 from "@/components/homes/tours/TourSlider3";
 import FooterFour from "@/components/layout/footers/FooterFour";
@@ -32,7 +32,7 @@ export default function HomePage6() {
         <TourTypes3 />
         <TourSlider3 />
         <Features5 />
-        <TestimonialsThree />
+         
         <div className=" bg-light-1">
           <ArticlesOne />
         </div>

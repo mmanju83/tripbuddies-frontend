@@ -86,7 +86,7 @@ export default function BlogSingle() {
               <div className="row y-gap-30 pt-20">
                 <div className="col-md-6">
                   <img
-                    src="/img/blogSingle/1.png"
+                    src="/img/Trips-1.jpg"
                     alt="image"
                     className="rounded-8"
                   />
@@ -97,7 +97,7 @@ export default function BlogSingle() {
 
                 <div className="col-md-6">
                   <img
-                    src="/img/blogSingle/2.png"
+                    src="/img/Trips-1.jpg"
                     alt="image"
                     className="rounded-8"
                   />
@@ -192,7 +192,7 @@ export default function BlogSingle() {
 
               <div className="row y-gap-20">
                 <div className="col-auto">
-                  <img src="/img/blogSingle/3.png" alt="image" />
+                  <img src="/img/Trips-1.jpg" alt="image" />
                 </div>
 
                 <div className="col">

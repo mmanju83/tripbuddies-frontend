@@ -70,7 +70,7 @@ export default function Menu() {
                     <div className="col-12">
                       <div className="specialCard">
                         <div className="specialCard__image">
-                          <img src="/img/cta/10/1.jpg" alt="image" />
+                          <img src="/img/cta.png" alt="image" />
                         </div>
 
                         <div className="specialCard__content">
@@ -88,7 +88,7 @@ export default function Menu() {
                     <div className="col-12">
                       <div className="specialCard">
                         <div className="specialCard__image">
-                          <img src="/img/cta/10/2.jpg" alt="image" />
+                          <img src="/img/cta.png" alt="image" />
                         </div>
 
                         <div className="specialCard__content">

@@ -1,7 +1,7 @@
 export const testimonialsOne = [
   {
     id: 1,
-    imageSrc: "/img/testimonials/1/2.png",
+    imageSrc: "/img/Trips-1.jpg",
     title: "Excellent Service!",
     content:
       "I had an amazing experience with this company. The service was top-notch, and the staff was incredibly friendly. I highly recommend them!",
@@ -10,7 +10,7 @@ export const testimonialsOne = [
   },
   {
     id: 2,
-    imageSrc: "/img/testimonials/1/2.png",
+    imageSrc: "/img/Trips-1.jpg",
     title: "Great Adventures!",
     content:
       "The tours in this website are great. I had been really enjoying with my family! The team is very professional and takes care of the customers. Will surely recommend it to my friends.",
@@ -19,7 +19,7 @@ export const testimonialsOne = [
   },
   {
     id: 3,
-    imageSrc: "/img/testimonials/1/2.png",
+    imageSrc: "/img/Trips-1.jpg",
     title: "Awesome Experience!",
     content:
       "The best travel company I've ever used. Their tours are fantastic, and the guides are very knowledgeable. I can't wait to go on another adventure with them.",
@@ -28,7 +28,7 @@ export const testimonialsOne = [
   },
   {
     id: 4,
-    imageSrc: "/img/testimonials/1/2.png",
+    imageSrc: "/img/Trips-1.jpg",
     title: "Awesome Experience!",
     content:
       "The best travel company I've ever used. Their tours are fantastic, and the guides are very knowledgeable. I can't wait to go on another adventure with them.",
@@ -37,7 +37,7 @@ export const testimonialsOne = [
   },
   {
     id: 5,
-    imageSrc: "/img/testimonials/1/2.png",
+    imageSrc: "/img/Trips-1.jpg",
     title: "Awesome Experience!",
     content:
       "The best travel company I've ever used. Their tours are fantastic, and the guides are very knowledgeable. I can't wait to go on another adventure with them.",
@@ -50,19 +50,19 @@ export const testimonialsTwo = [
   {
     name: "Albert Cole",
     role: "Designer",
-    image: "/img/avatars/1/1.jpg",
+    image: "/img/avatars.png",
     comment: `The tours in this website are great. I had been really enjoy with my family! The team is very professional and taking care of the customers. Will surely recommend to my freind to join this company!`,
   },
   {
     name: "Alison Dawn",
     role: "WordPress Developer",
-    image: "/img/avatars/1/2.jpg",
+    image: "/img/avatars.png",
     comment: `The tours in this website are great. I had been really enjoy with my family! The team is very professional and taking care of the customers. Will surely recommend to my freind to join this company!`,
   },
   {
     name: "Daniel Parker",
     role: "Front-end Developer",
-    image: "/img/avatars/1/3.jpg",
+    image: "/img/avatars.png",
     comment: `The tours in this website are great. I had been really enjoy with my family! The team is very professional and taking care of the customers. Will surely recommend to my freind to join this company!`,
   },
 ];
@@ -70,7 +70,7 @@ export const testimonialsTwo = [
 export const testimonialsThree = [
   {
     id: 1,
-    imgSrc: "/img/avatars/2/1.jpg",
+    imgSrc: "/img/avatars.png", 
     name: "Ali Tufan",
     role: "Product Manager, Apple Inc.",
     comment:
@@ -78,7 +78,7 @@ export const testimonialsThree = [
   },
   {
     id: 2,
-    imgSrc: "/img/avatars/2/2.jpg",
+    imgSrc: "/img/avatars.png", 
     name: "Ali Tufan",
     role: "Product Manager, Apple Inc.",
     comment:
@@ -86,7 +86,7 @@ export const testimonialsThree = [
   },
   {
     id: 3,
-    imgSrc: "/img/avatars/2/3.jpg",
+    imgSrc: "/img/avatars.png", 
     name: "Ali Tufan",
     role: "Product Manager, Apple Inc.",
     comment:
@@ -94,7 +94,7 @@ export const testimonialsThree = [
   },
   {
     id: 4,
-    imgSrc: "/img/avatars/2/4.jpg",
+    imgSrc: "/img/avatars.png", 
     name: "Ali Tufan",
     role: "Product Manager, Apple Inc.",
     comment:
@@ -102,7 +102,7 @@ export const testimonialsThree = [
   },
   {
     id: 5,
-    imgSrc: "/img/avatars/2/5.jpg",
+    imgSrc: "/img/avatars.png", 
     name: "Ali Tufan",
     role: "Product Manager, Apple Inc.",
     comment:
@@ -117,7 +117,7 @@ export const testimonialsFive = [
     role: `Web Designer`,
     comment: `Great Work`,
     desc: `I think Educrat is the best theme I ever seen this year. Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance`,
-    img: `/img/testimonials/1/2.png`,
+    img:  "/img/Trips-1.jpg",
   },
   {
     id: 2,
@@ -125,7 +125,7 @@ export const testimonialsFive = [
     role: `Web Designer`,
     comment: `Great Work`,
     desc: `I think Educrat is the best theme I ever seen this year. Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance`,
-    img: `/img/testimonials/1/2.png`,
+    img:  "/img/Trips-1.jpg",
   },
   {
     id: 3,
@@ -133,7 +133,7 @@ export const testimonialsFive = [
     role: `Web Designer`,
     comment: `Great Work`,
     desc: `I think Educrat is the best theme I ever seen this year. Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance`,
-    img: `/img/testimonials/1/2.png`,
+    img:  "/img/Trips-1.jpg",
   },
   {
     id: 4,
@@ -141,7 +141,7 @@ export const testimonialsFive = [
     role: `Web Designer`,
     comment: `Great Work`,
     desc: `I think Educrat is the best theme I ever seen this year. Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance`,
-    img: `/img/testimonials/1/2.png`,
+    img:  "/img/Trips-1.jpg",
   },
   {
     id: 5,
@@ -149,7 +149,7 @@ export const testimonialsFive = [
     role: `Web Designer`,
     comment: `Great Work`,
     desc: `I think Educrat is the best theme I ever seen this year. Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance`,
-    img: `/img/testimonials/1/2.png`,
+    img:  "/img/Trips-1.jpg",
   },
 ];
 export const testimonialsSix = [
@@ -159,7 +159,7 @@ export const testimonialsSix = [
     role: `Web Designer`,
     comment: `Great Work`,
     desc: `I think Educrat is the best theme I ever seen this year. Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance`,
-    img: `/img/avatars/1/1.jpg`,
+    img: "/img/avatars.png", 
   },
   {
     id: 2,
@@ -167,7 +167,7 @@ export const testimonialsSix = [
     role: `Web Designer`,
     comment: `Great Work`,
     desc: `I think Educrat is the best theme I ever seen this year. Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance`,
-    img: `/img/avatars/1/1.jpg`,
+    img: "/img/avatars.png", 
   },
   {
     id: 3,
@@ -175,6 +175,6 @@ export const testimonialsSix = [
     role: `Web Designer`,
     comment: `Great Work`,
     desc: `I think Educrat is the best theme I ever seen this year. Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance`,
-    img: `/img/avatars/1/1.jpg`,
+    img: "/img/avatars.png", 
   },
 ];

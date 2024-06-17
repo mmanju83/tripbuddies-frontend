@@ -8,7 +8,7 @@ import TopAttractions from "@/components/homes/destinations/TopAttractions";
 import FeaturesThree from "@/components/homes/features/FeaturesThree";
 import FeturesTwo from "@/components/homes/features/FeturesTwo";
 import Hero2 from "@/components/homes/heros/Hero2";
-import TestimonialOne from "@/components/homes/testimonials/TestimonialOne";
+ 
 import TourSlider2 from "@/components/homes/tours/TourSlider2";
 import FooterTwo from "@/components/layout/footers/FooterTwo";
 import Header2 from "@/components/layout/header/Header2";
@@ -34,9 +34,7 @@ export default function HomePage2() {
         <DestinationsTwo />
         <BannerTwo />
         <TopAttractions />
-        <div className="bg-accent-1-05">
-          <TestimonialOne />
-        </div>
+      
         <BannerFour />
         <FeaturesThree />
         <ArticlesOne />

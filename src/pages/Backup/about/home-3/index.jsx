@@ -7,7 +7,7 @@ import TrendingDestinations from "@/components/homes/destinations/TrendingDestin
 import FeaturesFour from "@/components/homes/features/FeaturesFour";
 import Hero3 from "@/components/homes/heros/Hero3";
 import LinksList from "@/components/homes/others/LinksList";
-import TestimonialsTwo from "@/components/homes/testimonials/TestimonialsTwo";
+ 
 import TourSlider2 from "@/components/homes/tours/TourSlider2";
 import FooterThree from "@/components/layout/footers/FooterThree";
 import Header3 from "@/components/layout/header/Header3";
@@ -31,7 +31,7 @@ export default function HomePage3() {
         <DestinationsThree />
         <TourSlider2 />
         <TrendingDestinations />
-        <TestimonialsTwo />
+ 
         <FeaturesFour />
         <BannerFive />
         <ArticlesTwo />

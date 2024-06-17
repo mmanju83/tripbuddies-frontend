@@ -1,7 +1,7 @@
 export const articles = [
   {
     id: 1,
-    imgSrc: "/img/blogCards/1/1.png",
+    image: "/img/Trips-1.jpg",
     badge: "Trips",
     date: "April 06 2023",
     author: "Ali Tufan",
@@ -9,7 +9,7 @@ export const articles = [
   },
   {
     id: 2,
-    imgSrc: "/img/blogCards/1/2.png",
+    image: "/img/Trips-1.jpg",
     badge: "Trips",
     date: "April 06 2023",
     author: "Ali Tufan",
@@ -17,7 +17,7 @@ export const articles = [
   },
   {
     id: 3,
-    imgSrc: "/img/blogCards/1/3.png",
+    image: "/img/Trips-1.jpg",
     badge: "Trips",
     date: "April 06 2023",
     author: "Ali Tufan",

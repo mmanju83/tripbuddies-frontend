@@ -1,5 +1,5 @@
 import Hero1 from "@/components/homes/heros/Hero1";
-import TourSlderOne from "@/components/homes/tours/TourSlderOne";
+ 
 import FooterOne from "@/components/layout/footers/FooterOne";
 import Header1 from "@/components/layout/header/Header1";
 import Destinations from "@/components/tours/Destinations";
@@ -20,13 +20,10 @@ export default function TourListPage7() {
       <MetaComponent meta={metadata} />
       <main>
         <Header1 />
-        <Hero1 />
-
+        <Hero1 /> 
         <Destinations />
-        <TourSlder />
-
-        <TourList4 />
-
+        <TourSlder /> 
+        <TourList4 /> 
         <FooterOne />
       </main>
     </>

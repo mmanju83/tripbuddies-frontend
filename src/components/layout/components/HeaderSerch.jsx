@@ -29,7 +29,7 @@ export default function HeaderSerch({ white }) {
     },
     {
       id: 7, // Unique ID
-      img: `/img/misc/icon.png`,
+      img: `/img/Trips-1.jpg`,
       title: "Centipede Tour - Guided Arizona Desert Tour by ATV",
       location: "Country",
     },
