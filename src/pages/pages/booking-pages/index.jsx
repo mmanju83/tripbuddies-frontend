@@ -6,8 +6,8 @@ import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Booking-page || ViaTour - Travel & Tour Reactjs Template",
-  description: "ViaTour - Travel & Tour Reactjs Template",
+  title: "Trip Planner |  Machathon | Valtech",
+  description: "Trip Planner for all",
 };
 
 export default function BookingPage() {

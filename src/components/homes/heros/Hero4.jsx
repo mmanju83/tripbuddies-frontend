@@ -135,7 +135,7 @@ export default function Hero4() {
 
                 <div className="searchForm__button">
                   <button
-                    onClick={() => navigate("/tour-list-6")}
+                    onClick={() => navigate("/tour-list-2")}
                     className="button -dark-1 size-60 bg-accent-1 rounded-200 text-white"
                   >
                     <i className="icon-search text-16"></i>

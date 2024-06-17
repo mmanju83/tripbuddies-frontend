@@ -4,8 +4,8 @@ import Header3 from "@/components/layout/header/Header3";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Not found || ViaTour - Travel & Tour Reactjs Template",
-  description: "ViaTour - Travel & Tour Reactjs Template",
+  title: "Trip Planner |  Machathon | Valtech",
+  description: "Trip Planner for all",
 };
 
 export default function NotFoundPage() {

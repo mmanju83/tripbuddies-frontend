@@ -6573,9 +6573,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dashboard__content_content {
-  padding: 0 75px;
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding: 28px 48px 20px;
+ 
 }
 
 @media (max-width: 767px) {
