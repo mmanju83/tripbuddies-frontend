@@ -94,7 +94,7 @@ export default function SingleFour({ tour }) {
                         Itinerary
                       </div>
 
-                      <div className="accordion__icon size-30 text-24 flex-center">
+                      <div className="accordion__icon size-30 text-24 flex-center mt-20">
                         <i className="icon-chevron-down"></i>
                         <i className="icon-chevron-up"></i>
                       </div>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Calender from "../common/dropdownSearch/Calender";
 
 import { times } from "@/data/tourSingleContent";
-
+import { Link } from "react-router-dom";
 export default function TourSingleSidebar() {
   const prices = {
     adultPrice: 94,
@@ -270,11 +270,12 @@ export default function TourSingleSidebar() {
           ).toFixed(2)}
         </div>
       </div>
-
+      <Link to="/booking-pages">
       <button className="button -md -dark-1 col-12 bg-accent-1 text-white mt-20">
-        Book Now
+     <b> Join Now</b> 
         <i className="icon-arrow-top-right ml-10"></i>
       </button>
+      </Link>
     </div>
   );
 }

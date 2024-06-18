@@ -41,7 +41,7 @@ export default function Banner() {
                   className="button -md -dark-1 bg-accent-1 text-white"
                 >
                   <Link to="/tour-list-1">
-                    Book Now
+                  <b> Join Now</b> 
                     <i className="icon-arrow-top-right ml-10 text-16"></i>
                   </Link>
                 </button>

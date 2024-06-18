@@ -24,7 +24,7 @@ export default function BannerTwo() {
                 className="button -md -dark-1 bg-white text-accent-1"
               >
                 <Link to="/tour-list-1">
-                  Book Now
+                <b> Join Now</b> 
                   <i className="icon-arrow-top-right ml-10 "></i>
                 </Link>
               </button>

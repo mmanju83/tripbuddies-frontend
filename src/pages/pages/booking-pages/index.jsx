@@ -1,9 +1,11 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
-import Header1 from "@/components/layout/header/Header1";
+ 
+import Header3 from "@/components/layout/header/Header3";
+import FooterFour from "@/components/layout/footers/FooterFour";
 import BookingPages from "@/components/pages/BookingPages";
 import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
+
 
 const metadata = {
   title: "Trip Planner |  Machathon | Valtech",
@@ -15,9 +17,9 @@ export default function BookingPage() {
     <>
       <MetaComponent meta={metadata} />
       <main>
-        <Header1 />
+        <Header3 />
         <BookingPages />
-        <FooterOne />
+        <FooterFour />
       </main>
     </>
   );

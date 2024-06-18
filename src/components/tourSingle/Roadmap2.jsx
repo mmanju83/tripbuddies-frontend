@@ -4,7 +4,7 @@ import React, { useState } from "react";
 export default function RoadMap2() {
   const [activeRoadmap, setActiveRoadmap] = useState(2);
   return (
-    <div className="roadmap roadMap2">
+    <div className="roadmap roadMap2 mt-20">
       {roadmapData2.map((elm, i) => (
         <div key={i} className="roadmap__item">
           {elm.icon ? (

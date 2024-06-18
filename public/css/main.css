@@ -1993,6 +1993,10 @@ h1, h2, h3, h4, h5, h6 {
   .header.-type-1 .header__container {
     height: 57px;
   }
+  .header.-type-3 .header__logo img{
+    height: 50px;
+    padding-top: 4px;
+  }
 }
 
 .header.-type-1 .header__logo {
@@ -13882,4 +13886,10 @@ button.gm-ui-hover-effect::after {
 
 .h-500 {
   height: 500px;
+}
+.zn1{ z-index: -1;}
+.mt-150{    margin-top: 150px !important;}
+
+.bg-light {
+  background: #eb662b17;
 }

@@ -11,7 +11,7 @@ export default function BookingPages() {
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
-            <div className="bg-white rounded-12 shadow-2 py-15 px-20">
+            <div className="bg-light rounded-12 shadow-2 py-15 px-20">
               <Link to="/login" className="text-accent-1">
                 Sign in
               </Link>{" "}
@@ -78,17 +78,7 @@ export default function BookingPages() {
                       Address 1
                     </label>
                   </div>
-                </div>
-
-                <div className="col-12">
-                  <div className="form-input ">
-                    <input type="text" required />
-                    <label className="lh-1 text-16 text-light-1">
-                      Address 2
-                    </label>
-                  </div>
-                </div>
-
+                </div> 
                 <div className="col-lg-6">
                   <div className="form-input ">
                     <input type="text" required />
@@ -103,15 +93,6 @@ export default function BookingPages() {
                     <input type="text" required />
                     <label className="lh-1 text-16 text-light-1">
                       ZIP code/Postal code
-                    </label>
-                  </div>
-                </div>
-
-                <div className="col-12">
-                  <div className="form-input ">
-                    <textarea required rows="8"></textarea>
-                    <label className="lh-1 text-16 text-light-1">
-                      Tour Content
                     </label>
                   </div>
                 </div>
@@ -394,7 +375,7 @@ export default function BookingPages() {
 
                   <div className="d-flex items-center justify-between">
                     <div className="text-18 fw-500">Amount Due</div>
-                    <div className="text-18 fw-500">$43.242</div>
+                    <div className="text-20 fw-600">$43.242</div>
                   </div>
                 </div>
               </div>
@@ -409,7 +390,7 @@ export default function BookingPages() {
 
                     
                       <button onClick={()=>setBookingStage(pre=>pre+1)} style={{alignSelf:'end'}}  className={`button -md -dark-1 bg-accent-1 text-white ${bookingStage == 3 ? 'hiddenButtonBooking ButtonBooking' : 'ButtonBooking'} `}>
-                        Next
+                       <b>Next </b>
                         <i className="icon-arrow-top-right text-16 ml-10"></i>
                       </button>
                     </div>
@@ -430,7 +411,7 @@ export default function BookingPages() {
                 <h2 className="text-20 fw-500">Your booking details</h2>
 
                 <div className="d-flex mt-30">
-                  <img src="/img/tourSingle/booking/1.png" alt="image" />
+                  <img className="w-40" src="/img/Trips-1.jpg" alt="image"  style={{width:80}} />
                   <div className="ml-20">
                     Zipline 18 Platform and ATV Adventure Tour From India
                   </div>
@@ -456,17 +437,17 @@ export default function BookingPages() {
 
                   <div className="d-flex items-center justify-between">
                     <div className="fw-500">Tickets:</div>
-                    <div className="">Adult x2 = $98</div>
+                    <div className="">Adult x2 = ₹ 98</div>
                   </div>
 
                   <div className="d-flex items-center justify-between">
                     <div className="fw-500"></div>
-                    <div className="">Youth x3 = $383</div>
+                    <div className="">Youth x3 = ₹ 383</div>
                   </div>
 
                   <div className="d-flex items-center justify-between">
                     <div className="fw-500"></div>
-                    <div className="">Children x6 = $394</div>
+                    <div className="">Children x6 = ₹ 394</div>
                   </div>
                 </div>
 
@@ -475,14 +456,15 @@ export default function BookingPages() {
                 <div className="y-gap-15">
                   <div className="d-flex justify-between">
                     <div className="fw-500">Service per booking</div>
-                    <div className="">$30.00</div>
+                    <div className=""> ₹ 30.00</div>
                   </div>
-
+                  <div className="fw-500">Service per person</div>
                   <div className="d-flex justify-between">
+               
                     <div className="fw-500">
-                      Service per person 1 Adult, 2 Youth, 4 Children
+                       1 Adult, 2 Youth, 4 Children
                     </div>
-                    <div className="">$179.00</div>
+                    <div className="">₹ 179.00</div>
                   </div>
                 </div>
 
@@ -491,22 +473,22 @@ export default function BookingPages() {
                 <div className="">
                   <div className="d-flex items-center justify-between">
                     <div className="fw-500">Subtotal</div>
-                    <div className="">$382</div>
+                    <div className="">₹ 382</div>
                   </div>
 
                   <div className="d-flex items-center justify-between">
                     <div className="fw-500">Total</div>
-                    <div className="">$23</div>
+                    <div className="">₹ 23</div>
                   </div>
 
                   <div className="d-flex items-center justify-between">
                     <div className="fw-500">Amount Paid</div>
-                    <div className="">$3.482</div>
+                    <div className="">₹ 3.482</div>
                   </div>
 
                   <div className="d-flex items-center justify-between">
                     <div className="fw-500">Amount Due</div>
-                    <div className="">$43.242</div>
+                    <div className=""> <b> ₹ 43.242 </b></div>
                   </div>
                 </div>
               </div>
@@ -531,7 +513,7 @@ export default function BookingPages() {
 
               <div className="mt-30">
                 <button className="button -md -dark-1 bg-accent-1 text-white col-12">
-                  Complete My Order
+                 <b>Complete My Trip Order</b>
                   <i className="icon-arrow-top-right text-16 ml-10"></i>
                 </button>
               </div>
