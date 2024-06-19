@@ -1,9 +1,7 @@
 
-
 @import './vendors.css';
 @import './main.css';
 @import './custom.css';
-
 @import "swiper/css";
 @import "swiper/css/pagination";
 @import "swiper/css/navigation";

@@ -7,11 +7,12 @@ export default function Sidebar({ setSideBarOpen }) {
   const { pathname } = useLocation();
   return (
     <div className="dashboard__sidebar js-dashboard-sidebar">
+      
       <div className="dashboard__sidebar_header">
+      <img src="/img/logo.svg" alt="image" />
         <span
           onClick={() => setSideBarOpen(false)}
-          class="text-white closeSidebar"
-        >
+          class="text-white closeSidebar" >
           &times;
         </span>
        

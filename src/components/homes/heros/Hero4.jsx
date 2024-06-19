@@ -41,9 +41,9 @@ export default function Hero4() {
         <div className="row justify-center text-center">
           <div className="col-xl-8 col-lg-9">
             <h1 data-aos="fade-up" data-aos-delay="100" className="hero__title">
-            Plan your next dream 
+           <span className="text-68 fw-400"> Plan your next </span> <span className="text-68 fw-900"> dream  </span>
               <br className="md:d-none" />
-              Trip in a seconds. 
+              <span className="text-68 fw-900"> Trip  </span> <span className="text-68 fw-400"> in a seconds.  </span>   
             </h1>
 
             <div

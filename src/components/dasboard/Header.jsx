@@ -93,7 +93,7 @@ export default function Header({ setSideBarOpen }) {
         </div>
 
         <div>
-          <img src="/img/dashboard/header/1.png" alt="image" />
+          <img src="/img/avatars.png" alt="image" />
         </div>
       </div>
     </div>

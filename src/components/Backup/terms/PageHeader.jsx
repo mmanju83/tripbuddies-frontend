@@ -21,11 +21,6 @@ export default function PageHeader() {
             </div>
           </div>
 
-          <div className="col-auto">
-            <div className="pageHeader__subtitle">
-              THE 10 BEST India Tours & Excursions
-            </div>
-          </div>
         </div>
 
         <div className="row pt-30">

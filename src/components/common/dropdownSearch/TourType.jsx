@@ -1,10 +1,10 @@
 import React from "react";
 const options = [
-  "City Tour",
+  "Bike Trips",
+  "Treks",
   "Hiking",
-  "Food Tour",
-  "Cultural Tours",
-  "Museums Tours",
+
+  "Bag Packing Trips",
   "Beach Tours",
 ];
 export default function TourType({ active, setTourType }) {

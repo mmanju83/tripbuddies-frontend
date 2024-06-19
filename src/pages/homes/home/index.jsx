@@ -21,7 +21,7 @@ export default function HomePage4() {
       <main>
         <Header3 />
         <Hero4 />
-        <FeaturedToures /> 
+        <FeaturedToures />
         <PopulerDestinations />
         <TrendingDestinationsTwo />
         <FooterFour />

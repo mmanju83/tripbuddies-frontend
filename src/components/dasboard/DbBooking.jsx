@@ -23,7 +23,7 @@ export default function DbBooking() {
           <h1 className="text-30">My Booking</h1>
           <p className="">Lorem ipsum dolor sit amet, consectetur.</p>
 
-          <div className="rounded-12 bg-white shadow-2 px-40 pt-40 pb-30 md:px-20 md:pt-20 md:mb-20 mt-60">
+          <div className="rounded-12 bg-white shadow-2 px-40 pt-40 pb-30 md:px-20 md:pt-20 md:mb-20 mt-20">
             <div className="tabs -underline-2 js-tabs">
               <div className="tabs__controls row x-gap-40 y-gap-10 lg:x-gap-20 js-tabs-controls">
                 {tabs.map((elm, i) => (
@@ -69,7 +69,7 @@ export default function DbBooking() {
 
                               <td className="min-w-300">
                                 <div className="d-flex items-center">
-                                  <img src={elm.imageUrl} alt="image" />
+                                  <img src={elm.imageUrl} alt="image" style={{width:60}} />
                                   <div className="ml-20">{elm.title}</div>
                                 </div>
                               </td>
@@ -124,7 +124,7 @@ export default function DbBooking() {
           </div>
 
           <div className="text-center pt-30">
-            © Copyright Viatours {new Date().getFullYear()}
+            © Copyright Valtech {new Date().getFullYear()}
           </div>
         </div>
       </div>
