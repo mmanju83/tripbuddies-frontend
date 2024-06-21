@@ -275,7 +275,7 @@ export default function BookingPages() {
                   System, your order was submitted successfully!
                 </h2>
                 <div className="mt-10">
-                  Booking details has been sent to: booking@tourz.com
+                  Booking details has been sent to: mmanju83@gmail.com
                 </div>
               </div>
 
@@ -293,7 +293,7 @@ export default function BookingPages() {
 
                   <div className="col-md-3 col-6">
                     <div>Total</div>
-                    <div className="text-accent-2">$40.10</div>
+                    <div className="text-accent-2">₹ 40.10</div>
                   </div>
 
                   <div className="col-md-3 col-6">
@@ -311,7 +311,7 @@ export default function BookingPages() {
                 <div className="text-18 fw-500">
                   Westminster Walking Tour & Westminster Abbey Entry
                 </div>
-                <div className="text-18 fw-500">$382</div>
+                <div className="text-18 fw-500">₹ 382</div>
               </div>
 
               <div className="mt-25">
@@ -333,7 +333,7 @@ export default function BookingPages() {
                 <div className="d-flex items-center justify-between">
                   <div className="fw-500">Tickets:</div>
                   <div className="">
-                    Adult x2 = $98 - Youth x3 = $383 - Children x6 = $394
+                    Adult x2 = ₹ 98 - Youth x3 = ₹ 383 - Children x6 = ₹ 394
                   </div>
                 </div>
               </div>
@@ -342,7 +342,7 @@ export default function BookingPages() {
 
               <div className="d-flex item-center justify-between y-gap-5">
                 <div className="text-18 fw-500">Service per booking</div>
-                <div className="text-18 fw-500">$43</div>
+                <div className="text-18 fw-500">₹ 43</div>
               </div>
 
               <div className="line mt-30 mb-30"></div>
@@ -351,7 +351,7 @@ export default function BookingPages() {
                 <div className="text-18 fw-500">
                   Service per person 1 Adult, 2 Youth, 4 Children
                 </div>
-                <div className="text-18 fw-500">$125</div>
+                <div className="text-18 fw-500">₹ 125</div>
               </div>
 
               <div className="line mt-30 mb-30"></div>
@@ -360,22 +360,22 @@ export default function BookingPages() {
                 <div className="col-md-4">
                   <div className="d-flex items-center justify-between">
                     <div className="text-18 fw-500">Subtotal</div>
-                    <div className="text-18 fw-500">$382</div>
+                    <div className="text-18 fw-500">₹ 382</div>
                   </div>
 
                   <div className="d-flex items-center justify-between">
                     <div className="text-18 fw-500">Total</div>
-                    <div className="text-18 fw-500">$23</div>
+                    <div className="text-18 fw-500">₹ 23</div>
                   </div>
 
                   <div className="d-flex items-center justify-between">
                     <div className="text-18 fw-500">Amount Paid</div>
-                    <div className="text-18 fw-500">$3.482</div>
+                    <div className="text-18 fw-500">₹ 3.482</div>
                   </div>
 
                   <div className="d-flex items-center justify-between">
                     <div className="text-18 fw-500">Amount Due</div>
-                    <div className="text-20 fw-600">$43.242</div>
+                    <div className="text-20 fw-600">₹ 43.242</div>
                   </div>
                 </div>
               </div>
