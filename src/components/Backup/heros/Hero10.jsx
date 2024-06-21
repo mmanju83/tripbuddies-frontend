@@ -27,7 +27,7 @@ export default function Hero10() {
   return (
     <section className="hero -type-10">
       <div className="hero__bg">
-        <img src="/img/hero/10/1.jpg" alt="background" />
+        <img src="/img/hero.jpg" alt="background" />
       </div>
 
       <div className="container">

@@ -4,19 +4,19 @@ import ImageLightBox from "./ImageLightBox";
 const images = [
   {
     id: 1,
-    image: `/img/tourSingle/TripDetails-1.jpg`,
+    image: `/img/TripDetails-1.jpg`,
   },
   {
     id: 1,
-    image: `/img/tourSingle/TripDetails-2.jpg`,
+    image: `/img/TripDetails-2.jpg`,
   },
   {
     id: 1,
-    image: `/img/tourSingle/TripDetails-3.jpg`,
+    image: `/img/TripDetails-3.jpg`,
   },
   {
     id: 1,
-    image: `/img/tourSingle/TripDetails-4.jpg`,
+    image: `/img/TripDetails-4.jpg`,
   },
 ];
 export default function Gallery1() {
@@ -26,10 +26,10 @@ export default function Gallery1() {
     <>
       <div className="tourSingleGrid -type-1 mt-30">
         <div className="tourSingleGrid__grid mobile-css-slider-2">
-          <img src="/img/tourSingle/TripDetails-1.jpg" alt="image" />
-          <img src="/img/tourSingle/TripDetails-2.jpg" alt="image" />
-          <img src="/img/tourSingle/TripDetails-3.jpg" alt="image" />
-          <img src="/img/tourSingle/TripDetails-4.jpg" alt="image" />
+          <img src="/img/TripDetails-1.jpg" alt="image" />
+          <img src="/img/TripDetails-2.jpg" alt="image" />
+          <img src="/img/TripDetails-3.jpg" alt="image" />
+          <img src="/img/TripDetails-4.jpg" alt="image" />
         </div>
 
         <div className="tourSingleGrid__button">
@@ -46,17 +46,17 @@ export default function Gallery1() {
             </span>
           </div>
           <a
-            href="/img/tourSingle/1/2.png"
+            href="/img/Trips-1.jpg"
             className="js-gallery"
             data-gallery="gallery1"
           ></a>
           <a
-            href="/img/tourSingle/1/3.png"
+             href="/img/Trips-1.jpg"
             className="js-gallery"
             data-gallery="gallery1"
           ></a>
           <a
-            href="/img/tourSingle/1/4.png"
+          href="/img/Trips-1.jpg"
             className="js-gallery"
             data-gallery="gallery1"
           ></a>

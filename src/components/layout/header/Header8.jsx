@@ -50,7 +50,7 @@ export default function Header8() {
           <div className="header__left">
             <div className="header__logo">
               <Link to="/" className="header__logo">
-                <img src="/img/general/logo-light.svg" alt="logo icon" />
+                <img src="/img/logo.svg" alt="logo icon" />
               </Link>
 
               <div className="text-white">

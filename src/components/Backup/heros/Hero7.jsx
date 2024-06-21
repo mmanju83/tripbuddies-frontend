@@ -12,35 +12,35 @@ import { useNavigate } from "react-router-dom";
 const slides = [
   {
     id: 1,
-    imageSrc: "/img/hero/7/1.jpg",
+    imageSrc: "/img/hero.jpg",
     subtitle:
       "Search, compare and book 15,000+ multiday tours all over the world.",
     title: "Tours and Trip packages, Globally",
   },
   {
     id: 2,
-    imageSrc: "/img/hero/7/1.jpg",
+    imageSrc: "/img/hero.jpg",
     subtitle:
       "Search, compare and book 15,000+ multiday tours all over the world.",
     title: "Tours and Trip packages, Globally",
   },
   {
     id: 3,
-    imageSrc: "/img/hero/7/1.jpg",
+    imageSrc: "/img/hero.jpg",
     subtitle:
       "Search, compare and book 15,000+ multiday tours all over the world.",
     title: "Tours and Trip packages, Globally",
   },
   {
     id: 4,
-    imageSrc: "/img/hero/7/1.jpg",
+    imageSrc: "/img/hero.jpg",
     subtitle:
       "Search, compare and book 15,000+ multiday tours all over the world.",
     title: "Tours and Trip packages, Globally",
   },
   {
     id: 5,
-    imageSrc: "/img/hero/7/1.jpg",
+    imageSrc: "/img/hero.jpg",
     subtitle:
       "Search, compare and book 15,000+ multiday tours all over the world.",
     title: "Tours and Trip packages, Globally",

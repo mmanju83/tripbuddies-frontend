@@ -37,7 +37,7 @@ export default function Hero3() {
     <section className="hero -type-3">
       <div className="hero__bg">
         <img
-          src="/img/hero/3/bg.jpg"
+          src="/img/hero.jpg"
           style={{ objectFit: "cover", height: "auto" }}
           alt="background"
         />
@@ -60,7 +60,7 @@ export default function Hero3() {
               Travel Experts
               <br className="md:d-none" />
               In World!
-              <img src="/img/hero/3/brush.svg" alt="brush stroke" />
+              <img src="/img/brush.svg" alt="brush stroke" />
             </h1>
 
             <div
@@ -169,10 +169,10 @@ export default function Hero3() {
           <div className="col-xl-7 col-lg-7">
             <div className="hero__image">
               <div>
-                <img src="/img/hero/3/1.png" alt="image" />
-                <img src="/img/hero/3/2.png" alt="image" />
+                <img src="/img/hero.jpg" alt="image" />
+                <img src="/img/hero.jpg" alt="image" />
               </div>
-              <img src="/img/hero/3/3.png" alt="image" />
+              <img src="/img/hero.jpg" alt="image" />
             </div>
           </div>
         </div>

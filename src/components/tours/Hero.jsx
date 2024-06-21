@@ -35,11 +35,6 @@ export default function Hero() {
       <section className="pageHeader -type-2 -secondary">
         <div className="pageHeader__bg">
           <img src="/img/hero.jpg" alt="image" />
-          <img
-            src="/img/hero/1/shape.svg"
-            style={{ height: "auto" }}
-            alt="image"
-          />
         </div>
 
         <div className="container">

@@ -18,7 +18,7 @@ export default function NotFoundPage() {
           <div className="container">
             <div className="row y-gap-30 justify-between items-center">
               <div className="col-xl-6 col-lg-6">
-                <img src="/img/404/1.svg" alt="image" />
+                <img src="/img/404.svg" alt="image" />
               </div>
 
               <div className="col-xl-5 col-lg-6">

@@ -101,10 +101,7 @@ export default function TourList3() {
                                 <input type="checkbox" name="name" />
                                 <div className="form-checkbox__mark">
                                   <div className="form-checkbox__icon">
-                                    <img
-                                      src="/img/icons/check.svg"
-                                      alt="icon"
-                                    />
+                                  <img src="/img/check.svg" alt="icon" />
                                   </div>
                                 </div>
                               </div>

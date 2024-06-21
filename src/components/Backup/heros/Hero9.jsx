@@ -9,48 +9,48 @@ const slidesData = [
   // Define an array of data for each slide
   {
     id: "01",
-    imageSrc: "/img/hero/9/1.jpg",
+    imageSrc: "/img/hero.jpg",
     title: "Iceland's legendary Golden Circle",
     subtitle: "Starting at $978",
     text: "Enjoy a full-day bus tour of Iceland's legendary Golden Circle. Soak in the warm thermal waters of the Secret Lagoon.",
 
-    imageSvgSrc: "/img/hero/9/image.svg",
+    imageSvgSrc: "/img/hero.jpg",
   },
   {
     id: "02",
-    imageSrc: "/img/hero/9/1.jpg",
+    imageSrc: "/img/hero.jpg",
     title: "Iceland's legendary Golden Circle",
     subtitle: "Starting at $978",
     text: "Enjoy a full-day bus tour of Iceland's legendary Golden Circle. Soak in the warm thermal waters of the Secret Lagoon.",
 
-    imageSvgSrc: "/img/hero/9/image.svg",
+    imageSvgSrc: "/img/hero.jpg",
   },
   {
     id: "03",
-    imageSrc: "/img/hero/9/1.jpg",
+    imageSrc: "/img/hero.jpg",
     title: "Iceland's legendary Golden Circle",
     subtitle: "Starting at $978",
     text: "Enjoy a full-day bus tour of Iceland's legendary Golden Circle. Soak in the warm thermal waters of the Secret Lagoon.",
 
-    imageSvgSrc: "/img/hero/9/image.svg",
+    imageSvgSrc: "/img/hero.jpg",
   },
   {
     id: "04",
-    imageSrc: "/img/hero/9/1.jpg",
+    imageSrc: "/img/hero.jpg",
     title: "Iceland's legendary Golden Circle",
     subtitle: "Starting at $978",
     text: "Enjoy a full-day bus tour of Iceland's legendary Golden Circle. Soak in the warm thermal waters of the Secret Lagoon.",
 
-    imageSvgSrc: "/img/hero/9/image.svg",
+    imageSvgSrc: "/img/hero.jpg",
   },
   {
     id: "05",
-    imageSrc: "/img/hero/9/1.jpg",
+    imageSrc: "/img/hero.jpg",
     title: "Iceland's legendary Golden Circle",
     subtitle: "Starting at $978",
     text: "Enjoy a full-day bus tour of Iceland's legendary Golden Circle. Soak in the warm thermal waters of the Secret Lagoon.",
 
-    imageSvgSrc: "/img/hero/9/image.svg",
+    imageSvgSrc: "/img/hero.jpg",
   },
   // Add more data for additional slides as needed
 ];

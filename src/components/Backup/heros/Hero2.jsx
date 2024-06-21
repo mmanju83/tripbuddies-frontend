@@ -13,35 +13,35 @@ const slides = [
     title: "Grab up to 35% off on your favorite Destination",
     text: "Limited time offer, don't miss the opportunity",
     buttonText: "Book Now",
-    imageSrc: "/img/hero/2/1.png",
+    imageSrc: "/img/hero.jpg",
   },
   {
     id: 2,
     title: "Explore Exotic Beaches and Resorts",
     text: "Discover paradise on Earth with our exclusive beach destinations.",
     buttonText: "Explore Now",
-    imageSrc: "/img/hero/2/2.png",
+    imageSrc: "/img/hero.jpg",
   },
   {
     id: 3,
     title: "Adventure Awaits in the Mountains",
     text: "Embark on thrilling mountain adventures with unbeatable discounts.",
     buttonText: "Book Your Adventure",
-    imageSrc: "/img/hero/2/3.png",
+    imageSrc: "/img/hero.jpg",
   },
   {
     id: 4,
     title: "Cruise into the Sunset",
     text: "Sail away on a memorable cruise experience with huge discounts.",
     buttonText: "Book Your Cruise",
-    imageSrc: "/img/hero/2/4.png",
+    imageSrc: "/img/hero.jpg",
   },
   {
     id: 5,
     title: "Discover Historic Cities",
     text: "Experience the charm of historic cities with our special offers.",
     buttonText: "Explore History",
-    imageSrc: "/img/hero/2/5.png",
+    imageSrc: "/img/hero.jpg",
   },
   // Add more slide objects as needed
 ];
@@ -184,7 +184,7 @@ export default function Hero2() {
 
         <div className="hero__slider">
           <div className="hero__bg bg-accent-1">
-            <img src="/img/hero/2/bg.png" alt="image" />
+            <img src="/img/hero.jpg" alt="image" />
           </div>
 
           <div className="overflow-hidden js-section-slider">
@@ -226,7 +226,7 @@ export default function Hero2() {
                             35% off
                             <span>
                               <img
-                                src="/img/hero/2/brush.svg"
+                                src="/img/brush.svg"
                                 alt="brush stroke"
                               />
                             </span>
@@ -259,14 +259,14 @@ export default function Hero2() {
 
                       <div className="hero__image">
                         <div className="hero__image_shape">
-                          <img src="/img/hero/2/shape.svg" alt="image" />
+                          <img src="/img/shape.svg" alt="image" />
                         </div>
 
                         <div className="hero__image_mobileShape">
-                          <img src="/img/hero/2/shape2.svg" alt="image" />
+                          <img src="/img/shape2.svg" alt="image" />
                         </div>
 
-                        <img src="/img/hero/2/1.png" alt="image" />
+                        <img src="/img/1.png" alt="image" />
                       </div>
                     </div>
                   </SwiperSlide>

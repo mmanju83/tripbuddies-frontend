@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Profile() {
   const [sideBarOpen, setSideBarOpen] = useState(true);
   const [image1, setImage1] = useState("");
-  const [image2, setImage2] = useState("/img/dashboard/addtour/1.jpg");
+  const [image2, setImage2] = useState("/img/Trips-1.jpg");
 
   const handleImageChange = (event, func) => {
     const file = event.target.files[0];
@@ -103,7 +103,7 @@ export default function Profile() {
                           htmlFor="imageInp1"
                           className="size-200 rounded-12 border-dash-1 bg-accent-1-05 flex-center flex-column"
                         >
-                          <img alt="image" src={"/img/dashboard/upload.svg"} />
+                          <img alt="image" src={"/img/upload.svg"} />
 
                           <div className="text-16 fw-500 text-accent-1 mt-10">
                             Upload Images
@@ -142,7 +142,7 @@ export default function Profile() {
                           htmlFor="imageInp2"
                           className="size-200 rounded-12 border-dash-1 bg-accent-1-05 flex-center flex-column"
                         >
-                          <img alt="image" src={"/img/dashboard/upload.svg"} />
+                          <img alt="image" src={"/img/upload.svg"} />
 
                           <div className="text-16 fw-500 text-accent-1 mt-10">
                             Upload Images

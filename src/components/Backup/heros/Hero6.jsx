@@ -35,7 +35,7 @@ export default function Hero6() {
   return (
     <section className="hero -type-6">
       <div className="hero__bg">
-        <img src="/img/hero/6/bg.svg" alt="background" />
+        <img src="/img/hero.jpg" alt="background" />
       </div>
 
       <div className="container">

@@ -192,7 +192,7 @@ export default function BookingPages() {
 
                       <div className="col-lg-6">
                         <img
-                          src="/img/tourSingle/booking/card.png"
+                          src="/img/card.png"
                           alt="image"
                         />
                       </div>

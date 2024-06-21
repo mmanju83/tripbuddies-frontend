@@ -4,8 +4,7 @@ export default function Hero() {
   return (
     <section className="pageHeader -type-1">
       <div className="pageHeader__bg">
-        <img src="/img/Trips-1.jpg" alt="image" />
-        <img src="/img/shape.svg" alt="image" />
+        <img src="/img/Trips-1.jpg" alt="image" /> 
       </div>
 
       <div className="container">

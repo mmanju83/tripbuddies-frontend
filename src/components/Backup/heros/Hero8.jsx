@@ -35,7 +35,7 @@ export default function Hero8() {
   return (
     <section className="hero -type-8">
       <div className="hero__bg">
-        <img src="/img/hero/8/1.jpg" alt="background" />
+        <img src="/img/hero.jpg" alt="background" />
       </div>
 
       <div className="container">

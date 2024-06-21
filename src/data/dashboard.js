@@ -211,7 +211,7 @@ export const bookingData = [
 export const messageSanders = [
   {
     id: 1,
-    image: "/img/dashboard/messages/sidebar/1.png",
+    image: "/img/Trips-1.jpg",
     badgeColor: "",
     badgeText: "2",
     name: `Darlene Robertson`,
@@ -220,7 +220,7 @@ export const messageSanders = [
   },
   {
     id: 2,
-    image: "/img/dashboard/messages/sidebar/2.png",
+    image: "/img/Trips-1.jpg",
     badgeColor: "bg-accent-2",
     badgeText: "2",
     name: `Darlene Robertson`,
@@ -229,7 +229,7 @@ export const messageSanders = [
   },
   {
     id: 3,
-    image: "/img/dashboard/messages/sidebar/3.png",
+    image: "/img/Trips-1.jpg",
     badgeColor: "bg-green-3",
     badgeText: "2",
     name: `Darlene Robertson`,
@@ -238,7 +238,7 @@ export const messageSanders = [
   },
   {
     id: 4,
-    image: "/img/dashboard/messages/sidebar/4.png",
+    image: "/img/Trips-1.jpg",
     badgeColor: "",
     badgeText: "",
     name: `Darlene Robertson`,
@@ -247,7 +247,7 @@ export const messageSanders = [
   },
   {
     id: 5,
-    image: "/img/dashboard/messages/sidebar/5.png",
+    image: "/img/Trips-1.jpg",
     badgeColor: "bg-yellow-3",
     badgeText: "2",
     name: `Darlene Robertson`,
@@ -256,7 +256,7 @@ export const messageSanders = [
   },
   {
     id: 6,
-    image: "/img/dashboard/messages/sidebar/6.png" ,
+    image: "/img/Trips-1.jpg",
     badgeColor: "",
     badgeText: "",
     name: `Darlene Robertson`,
@@ -265,7 +265,7 @@ export const messageSanders = [
   },
   {
     id: 7,
-    image: "/img/dashboard/messages/sidebar/7.png",
+    image: "/img/Trips-1.jpg",
     badgeColor: "",
     badgeText: "",
     name: `Darlene Robertson`,
@@ -274,7 +274,7 @@ export const messageSanders = [
   },
   {
     id: 8,
-    image: "/img/dashboard/messages/sidebar/8.png",
+    image: "/img/Trips-1.jpg",
     badgeColor: "",
     badgeText: "",
     name: `Darlene Robertson`,

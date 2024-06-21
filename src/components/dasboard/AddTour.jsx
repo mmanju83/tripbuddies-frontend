@@ -9,9 +9,9 @@ export default function AddTour() {
   const [sideBarOpen, setSideBarOpen] = useState(true);
   const [activeTab, setActiveTab] = useState("Content");
   const [image1, setImage1] = useState("");
-  const [image2, setImage2] = useState("/img/dashboard/addtour/1.jpg");
-  const [image3, setImage3] = useState("/img/dashboard/addtour/2.jpg");
-  const [image4, setImage4] = useState("/img/dashboard/addtour/3.jpg");
+  const [image2, setImage2] = useState("/img/Trips-1.jpg");
+  const [image3, setImage3] = useState("/img/Trips-1.jpg");
+  const [image4, setImage4] = useState("/img/Trips-1.jpg");
 
   const handleImageChange = (event, func) => {
     const file = event.target.files[0];
@@ -136,7 +136,7 @@ export default function AddTour() {
                                   >
                                     <img
                                       alt="image"
-                                      src={"/img/dashboard/upload.svg"}
+                                      src={"/img/upload.svg"}
                                     />
 
                                     <div className="text-16 fw-500 text-accent-1 mt-10">
@@ -180,7 +180,7 @@ export default function AddTour() {
                                   >
                                     <img
                                       alt="image"
-                                      src={"/img/dashboard/upload.svg"}
+                                      src={"/img/upload.svg"}
                                     />
 
                                     <div className="text-16 fw-500 text-accent-1 mt-10">
@@ -224,7 +224,7 @@ export default function AddTour() {
                                   >
                                     <img
                                       alt="image"
-                                      src={"/img/dashboard/upload.svg"}
+                                      src={"/img/upload.svg"}
                                     />
 
                                     <div className="text-16 fw-500 text-accent-1 mt-10">
@@ -268,7 +268,7 @@ export default function AddTour() {
                                   >
                                     <img
                                       alt="image"
-                                      src={"/img/dashboard/upload.svg"}
+                                      src={"/img/upload.svg"}
                                     />
 
                                     <div className="text-16 fw-500 text-accent-1 mt-10">

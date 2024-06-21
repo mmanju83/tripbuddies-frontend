@@ -35,17 +35,17 @@ export default function Hero5() {
   return (
     <section className="hero -type-5">
       <div className="hero__bg">
-        <img src="/img/hero/5/bg.png" alt="background" />
+        <img src="/img/hero.jpg" alt="background" />
       </div>
 
       <div className="hero__image">
         <img
-          src="/img/hero/5/shape.svg"
+          src="/img/hero.jpg"
           style={{ height: "100%", width: "auto" }}
           alt="image"
         />
-        <img src="/img/hero/5/1.jpg" alt="image" />
-        <img src="/img/hero/5/mobile.svg" alt="image" />
+        <img src="/img/hero.jpg" alt="image" />
+        <img src="/img/hero.jpg" alt="image" />
       </div>
 
       <div className="container">

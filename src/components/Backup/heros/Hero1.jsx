@@ -36,9 +36,9 @@ export default function Hero1() {
   return (
     <section className="hero -type-1">
       <div className="hero__bg">
-        <img src="/img/hero/1/1.png" alt="image" />
+        <img src="/img/hero.jpg" alt="image" />
         <img
-          src="/img/hero/1/shape.svg"
+        src="/img/shape.svg"
           alt="image"
           style={{ height: "auto" }}
         />

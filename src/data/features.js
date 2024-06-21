@@ -1,25 +1,25 @@
 export const features = [
   {
     id: 1,
-    iconSrc: "/img/icons/1/ticket.svg",
+    iconSrc: "/img/icons.svg", 
     title: "Ultimate flexibility",
     text: "You're in control, with free cancellation and payment options to satisfy any plan or budget.",
   },
   {
     id: 2,
-    iconSrc: "/img/icons/1/hot-air-balloon.svg",
+    iconSrc: "/img/icons.svg", 
     title: "Memorable experiences",
     text: "Browse and book tours and activities so incredible, you'll want to tell your friends.",
   },
   {
     id: 3,
-    iconSrc: "/img/icons/1/diamond.svg",
+    iconSrc: "/img/icons.svg", 
     title: "Quality at our core",
     text: "High-quality standards. Millions of reviews. A tourz company.",
   },
   {
     id: 4,
-    iconSrc: "/img/icons/1/medal.svg",
+    iconSrc: "/img/icons.svg", 
     title: "Award-winning support",
     text: "New price? New plan? No problem. We're here to help, 24/7.",
   },
@@ -27,19 +27,19 @@ export const features = [
 export const featuresFour = [
   {
     id: 1,
-    iconSrc: "/img/icons/1/ticket.svg",
+    iconSrc: "/img/icons.svg", 
     title: "Ultimate flexibility",
     text: "You’re in control, with free cancellation and payment.",
   },
   {
     id: 2,
-    iconSrc: "/img/icons/1/hot-air-balloon.svg",
+    iconSrc: "/img/icons.svg", 
     title: "Memorable experiences",
     text: "Browse and book tours and activities so incredible.",
   },
   {
     id: 3,
-    iconSrc: "/img/icons/1/diamond.svg",
+    iconSrc: "/img/icons.svg", 
     title: "Quality at our core",
     text: "High quality standards. Millions of reviews.",
   },
@@ -47,19 +47,19 @@ export const featuresFour = [
 export const featuresTwo = [
   {
     id: 1,
-    iconSrc: "/img/icons/2/1.svg",
+    iconSrc: "/img/icons.svg", 
     value: "240",
     label: "Total Destinations",
   },
   {
     id: 2,
-    iconSrc: "/img/icons/2/2.svg",
+    iconSrc: "/img/icons.svg", 
     value: "3672",
     label: "Amazing Tours",
   },
   {
     id: 3,
-    iconSrc: "/img/icons/2/3.svg",
+    iconSrc: "/img/icons.svg", 
     value: "92,842",
     label: "Happy Customer",
   },
@@ -68,25 +68,25 @@ export const featuresTwo = [
 export const featuresThree = [
   {
     id: 1,
-    icon: "/img/icons/3/1.svg",
+    iconSrc: "/img/icons.svg", 
     value: "932M",
     text: "Total Donations",
   },
   {
     id: 2,
-    icon: "/img/icons/3/2.svg",
+    icon: "/img/icons.svg",
     value: "24M",
     text: "Campaigns Closed",
   },
   {
     id: 3,
-    icon: "/img/icons/3/3.svg",
+    icon: "/img/icons.svg",
     value: "10M",
     text: "Happy People",
   },
   {
     id: 4,
-    icon: "/img/icons/3/4.svg",
+    icon: "/img/icons.svg",
     value: "65M",
     text: "Our Volunteers",
   },

@@ -2,9 +2,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
 const images = [
-  "/img/tourSingle/2/1.png",
-  "/img/tourSingle/2/2.png",
-  "/img/tourSingle/2/3.png",
+  "/img/Trips-1.jpg",
+  "/img/Trips-1.jpg",
+  "/img/Trips-1.jpg",
 ];
 export default function Gallery3() {
   return (

@@ -2,12 +2,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
 const images = [
-  "/img/tourSingle/TripDetails-1.jpg",
-  "/img/tourSingle/2/2.png",
-  "/img/tourSingle/2/3.png",
-  "/img/tourSingle/2/1.png",
-  "/img/tourSingle/2/2.png",
-  "/img/tourSingle/2/3.png",
+  "/img/TripDetails-1.jpg",
+  "/img/TripDetails-1.jpg",
+  "/img/TripDetails-1.jpg",
+  "/img/TripDetails-1.jpg",
+  "/img/TripDetails-1.jpg",
+  "/img/TripDetails-1.jpg",
 ];
 export default function Gallery2() {
   return (

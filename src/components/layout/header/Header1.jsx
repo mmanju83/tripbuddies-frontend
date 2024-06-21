@@ -53,7 +53,7 @@ export default function Header1() {
 
           <div className="header__logo">
             <Link to="/" className="header__logo">
-              <img src="/img/general/logo-1.svg" alt="logo icon" />
+              <img src="/img/logo.svg" alt="logo icon" />
             </Link>
 
             <div className="xl:d-none ml-30">
