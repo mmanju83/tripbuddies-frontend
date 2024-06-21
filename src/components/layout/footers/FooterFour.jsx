@@ -1,8 +1,7 @@
-import Paymentcards from "../components/Paymentcards";
+ 
 import Socials from "../components/Socials";
 
-import FooterLinksTwo from "../components/FooterLinksTwo";
-
+  
 export default function FooterFour() {
   return (
     <footer className="footer -type-1 -light bg-dark-1">

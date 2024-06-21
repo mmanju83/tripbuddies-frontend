@@ -17,7 +17,7 @@ export default function TourListPage2() {
       <MetaComponent meta={metadata} />
       <main>
       <Header3 />
-        <Hero />
+        <Hero /> 
         <TourList5 />
         <FooterFour />
       </main>

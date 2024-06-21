@@ -1,4 +1,4 @@
-import AddTour from "@/components/dasboard/AddTour";
+ 
 import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
@@ -13,7 +13,7 @@ export default function DBAddTourPage() {
     <>
       <MetaComponent meta={metadata} />
       <main>
-        <AddTour />
+      
       </main>
     </>
   );

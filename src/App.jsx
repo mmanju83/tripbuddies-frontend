@@ -12,8 +12,7 @@ import TourSinglePage1 from "./pages/tour-singles/tour-single-1";
 import BookingPage from "./pages/pages/booking-pages";
 import DBMainPage from "./pages/dashboard/db-main";
 import DBBookingPage from "./pages/dashboard/db-booking";
-import DBListingPage from "./pages/dashboard/db-listing";
-import DBAddTourPage from "./pages/dashboard/db-add-tour";
+import DBListingPage from "./pages/dashboard/db-listing"; 
 import DBFavoritesPage from "./pages/dashboard/db-favorites";
 import DestinationsPage from "./pages/pages/destinations";
 import LoginPage from "./pages/pages/login";
@@ -41,8 +40,7 @@ function App() {
             <Route path="/booking-pages" element={<BookingPage />} />
             <Route path="/db-main" element={<DBMainPage />} />
             <Route path="/db-booking" element={<DBBookingPage />} />
-            <Route path="/db-listing" element={<DBListingPage />} />
-            <Route path="/db-add-tour" element={<DBAddTourPage />} />
+            <Route path="/db-listing" element={<DBListingPage />} /> 
             <Route path="/db-favorites" element={<DBFavoritesPage />} />
             <Route path="/destinations" element={<DestinationsPage />} />
             <Route path="/login" element={<LoginPage />} />

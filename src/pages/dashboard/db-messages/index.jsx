@@ -1,4 +1,4 @@
-import Messages from "@/components/dasboard/Messages";
+ 
 import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
@@ -13,7 +13,7 @@ export default function DBMessagesPage() {
     <>
       <MetaComponent meta={metadata} />
       <main>
-        <Messages />
+      
       </main>
     </>
   );

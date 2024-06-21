@@ -13,7 +13,7 @@ export default function NotFoundPage() {
     <>
       <MetaComponent meta={metadata} />
       <main>
-        <Header3 />
+        <Header3/>
         <section className="nopage mt-header">
           <div className="container">
             <div className="row y-gap-30 justify-between items-center">

@@ -54,9 +54,8 @@ export default function TourList5() {
             >
               <div className="col-auto">
                 <div
-                  className={` dropdown -base -price js-dropdown js-form-dd  ${
-                    curentDD == "priceFilter1" ? "is-active" : ""
-                  } `}
+                  className={` dropdown -base -price js-dropdown js-form-dd  ${curentDD == "priceFilter1" ? "is-active" : ""
+                    } `}
                 >
                   <div
                     onClick={() => {
@@ -85,9 +84,8 @@ export default function TourList5() {
 
               <div className="col-auto">
                 <div
-                  className={` dropdown -base -price js-dropdown js-form-dd  ${
-                    curentDD == "durationFilter1" ? "is-active" : ""
-                  } `}
+                  className={` dropdown -base -price js-dropdown js-form-dd  ${curentDD == "durationFilter1" ? "is-active" : ""
+                    } `}
                 >
                   <div
                     onClick={() => {
@@ -112,7 +110,7 @@ export default function TourList5() {
                                 <input type="checkbox" name="name" />
                                 <div className="form-checkbox__mark">
                                   <div className="form-checkbox__icon">
-                                  <img src="/img/check.svg" alt="icon" />
+                                    <img src="/img/check.svg" alt="icon" />
                                   </div>
                                 </div>
                               </div>
@@ -134,9 +132,8 @@ export default function TourList5() {
 
               <div className="col-auto">
                 <div
-                  className={` dropdown -base -price js-dropdown js-form-dd  ${
-                    curentDD == "languageFilter1" ? "is-active" : ""
-                  } `}
+                  className={` dropdown -base -price js-dropdown js-form-dd  ${curentDD == "languageFilter1" ? "is-active" : ""
+                    } `}
                 >
                   <div
                     onClick={() => {
@@ -161,7 +158,7 @@ export default function TourList5() {
                                 <input type="checkbox" name="name" />
                                 <div className="form-checkbox__mark">
                                   <div className="form-checkbox__icon">
-                                  <img src="/img/check.svg" alt="icon" />
+                                    <img src="/img/check.svg" alt="icon" />
                                   </div>
                                 </div>
                               </div>
@@ -183,9 +180,8 @@ export default function TourList5() {
 
               <div className="col-auto">
                 <div
-                  className={` dropdown -base -price js-dropdown js-form-dd  ${
-                    curentDD == "ratingFilter1" ? "is-active" : ""
-                  } `}
+                  className={` dropdown -base -price js-dropdown js-form-dd  ${curentDD == "ratingFilter1" ? "is-active" : ""
+                    } `}
                 >
                   <div
                     onClick={() => {
@@ -231,9 +227,8 @@ export default function TourList5() {
 
               <div className="col-auto">
                 <div
-                  className={` dropdown -base -price js-dropdown js-form-dd  ${
-                    curentDD == "featuresFilter1" ? "is-active" : ""
-                  } `}
+                  className={` dropdown -base -price js-dropdown js-form-dd  ${curentDD == "featuresFilter1" ? "is-active" : ""
+                    } `}
                 >
                   <div
                     onClick={() => {
@@ -258,7 +253,7 @@ export default function TourList5() {
                                 <input type="checkbox" name="name" />
                                 <div className="form-checkbox__mark">
                                   <div className="form-checkbox__icon">
-                                  <img src="/img/icons.svg" alt="icon" />
+                                    <img src="/img/icons.svg" alt="icon" />
                                   </div>
                                 </div>
                               </div>
@@ -282,9 +277,8 @@ export default function TourList5() {
 
           <div ref={dropDownContainer} className="col-auto">
             <div
-              className={`dropdown -type-2 js-dropdown js-form-dd ${
-                ddActives ? "is-active" : ""
-              } `}
+              className={`dropdown -type-2 js-dropdown js-form-dd ${ddActives ? "is-active" : ""
+                } `}
             >
               <div
                 className="dropdown__button js-button"

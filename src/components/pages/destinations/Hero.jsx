@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="pageHeader -type-1">
       <div className="pageHeader__bg">
         <img src="/img/hero.jpg" alt="image" />
-        <img src="/img/shape.svg" alt="image" />
+      
       </div>
       
 
