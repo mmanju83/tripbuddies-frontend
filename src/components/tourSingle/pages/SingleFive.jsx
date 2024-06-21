@@ -67,7 +67,7 @@ export default function SingleFive({ tour }) {
                       activeTab == "included" ? "is-tab-el-active" : ""
                     }`}
                   >
-                    <h2 className="text-30">What's included</h2>
+                    <h2 className="text-30">What's included's</h2>
 
                     <div className="row x-gap-130 y-gap-20 pt-20">
                       <div className="col-lg-6">
