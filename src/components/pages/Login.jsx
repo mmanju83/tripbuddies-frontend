@@ -1,10 +1,58 @@
-import { Link } from "react-router-dom";
-import React from "react";
+import { useNavigate, Link } from "react-router-dom";
+import React, { useState } from "react";
+import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
+import { auth, googleAuthProvider } from "../../config/firebase";
+import GoogleButton from 'react-google-button';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import zIndex from "@mui/material/styles/zIndex";
 
 export default function Login() {
+  const [err, setErr] = useState(false);
+  const navigate = useNavigate();
+
+  const handleSubmitEmailAndPassword = async (e) => {
+    e.preventDefault();
+    const email = e.target[0].value;
+    const password = e.target[1].value;
+    console.log(e.target[0].value +" " + e.target[1].value)
+
+    try {
+      const emailResult = await signInWithEmailAndPassword(auth, email, password);
+      localStorage.setItem('token', emailResult.user.accessToken);
+      localStorage.setItem('user', JSON.stringify(emailResult.user))
+      navigate("/")
+    } catch (error) {
+      console.log(error);
+      if (error.code === 'auth/invalid-credential') {
+        toast.error("Invalid Credentials!");
+      } else {
+        toast.error(error.message);
+      }
+     }       
+  }
+  
+
+  const handleSubmitGoogleAccount = async (e) => {
+    e.preventDefault();
+  
+
+    try {
+      const googleAccountResult = await signInWithPopup(auth, googleAuthProvider);
+      localStorage.setItem('token', googleAccountResult.user.accessToken);
+      localStorage.setItem('user', JSON.stringify(googleAccountResult.user))
+      navigate("/")
+    } catch (error) {
+      console.log(error);
+        toast.error(error.message);
+      }     
+  };
+
+
   return (
     <section className="">
+      <ToastContainer position="top-center" autoClose={4000}/>
       <div className="absolute zn1"> 
       <img src="/img/hero.jpg" alt="background" />
       </div> 
@@ -13,7 +61,7 @@ export default function Login() {
           <div className="col-xl-5 col-lg-5 col-md-9 mt-150"> 
 
             <form
-              onSubmit={(e) => e.preventDefault()}
+              onSubmit={handleSubmitEmailAndPassword}
               className="contactForm border-1 rounded-12 px-40 pt-20 pb-40 md:px-25 md:py-30 bg-white"
             >
                 <div className="text-center mb-30 md:mb-30">
@@ -27,7 +75,7 @@ export default function Login() {
               </div>
 
               <div className="form-input mt-30">
-                <input type="email" required />
+                <input type="password" required />
                 <label className="lh-1 text-16 text-light-1">Password</label>
               </div>
 
@@ -86,7 +134,7 @@ export default function Login() {
                 <div className="col">
                   <button className="button -md -outline-red-1 text-red-1 col-12">
                     <i className="icon-google mr-10"></i>
-                    Continue Google
+                    <GoogleButton onClick={handleSubmitGoogleAccount}/>
                   </button>
                 </div>
               </div>

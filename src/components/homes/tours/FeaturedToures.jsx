@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 export default function FeaturedToures() {
+
+  
   return (
     <section className="layout-pt-xl layout-pb-xl ">
       <div className="container">

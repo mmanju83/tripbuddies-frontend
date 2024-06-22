@@ -10,6 +10,9 @@ export default function Header3() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [addClass, setAddClass] = useState(false);
+  const token = localStorage.getItem('token');
+  console.log("during reload",token)
+
 
   // Add a class to the element when scrolled 50px
   const handleScroll = () => {
@@ -19,6 +22,11 @@ export default function Header3() {
       setAddClass(false);
     }
   };
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    window.location.reload();
+  };
+
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -55,13 +63,23 @@ export default function Header3() {
           </div>
 
           <div className="header__right">
-            <Link to="/register" className="ml-30">
-            Create an Account
+            { token ? (
+            
+            <Link to="/" onClick={handleLogout} className="button -sm -outline-dark-1 rounded-200 text-dark-1 ml-30" >
+              Log Out
             </Link>
 
-            <Link to="/login" className="button -sm -outline-dark-1 rounded-200 text-dark-1 ml-30" >
-              Log in
-            </Link>
+              ) : ( 
+                <>
+                <Link to="/register" className="ml-30">
+                Create an Account
+                </Link>
+    
+                <Link to="/login" className="button -sm -outline-dark-1 rounded-200 text-dark-1 ml-30" >
+                  Log in
+                </Link>
+                </>
+            )}
           </div>
         </div>
       </header>
