@@ -7,6 +7,10 @@ export default function ImageLightBox({
   currentSlideIndex,
   setCurrentSlideIndex,
 }) {
+  //debug
+  // console.log(images);
+  // {images.tourData.map((elm, i) => (console.log("http://localhost:1337"+elm.attributes.url)))}
+
   return (
     <div
       id="myModal"
@@ -22,7 +26,7 @@ export default function ImageLightBox({
         <span>&times;</span>
       </div>
       <div className="modal-content">
-        {images.map((elm, i) => (
+        {images.tourData.map((elm, i) => (
           <div
             key={i}
             className={`mySlides ${currentSlideIndex == i ? "fadein" : ""} `}
@@ -33,10 +37,10 @@ export default function ImageLightBox({
             }
           >
             <div className="numbertext">
-              {i + 1} / {images.length}
+              {i + 1} / {images.tourData.length}
             </div>
             <img
-              src={elm.image}
+              src={"http://localhost:1337"+elm.attributes.url}
               style={{
                 height: "100%",
                 width: "100%",

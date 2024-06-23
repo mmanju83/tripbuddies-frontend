@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function OthersInformation() {
+export default function OthersInformation(tourData) {
   return (
     <>
       <div className="col-lg-3 col-6">
@@ -11,7 +11,9 @@ export default function OthersInformation() {
 
           <div className="ml-10">
             <div className="lh-16">Duration</div>
-            <div className="text-14 text-light-2 lh-16">1 days</div>
+            <div className="text-14 text-light-2 lh-16">{tourData.tourData.attributes.duration>1 ? 
+            tourData.tourData.attributes.duration+" days" : tourData.tourData.attributes.duration }
+            </div>
           </div>
         </div>
       </div>

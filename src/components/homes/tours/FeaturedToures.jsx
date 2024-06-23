@@ -1,13 +1,30 @@
 import Stars from "@/components/common/Stars";
-import { tourData } from "@/data/tours";
+// import { tourData } from "@/data/tours";
+import axios from "axios";
 
 import { Link } from "react-router-dom";
-import React from "react";
+import {React,useState,useEffect} from "react";
 
 export default function FeaturedToures() {
+  const [tourData, setTourData] = useState([]);
 
-  
-  return (
+  useEffect(() => {
+    const fetchTours = async () => {
+      try {
+        const response = await axios.get("http://localhost:1337/api/trips?populate=*");
+        setTourData(response.data.data);
+        console.log(response.data.data);
+      } catch (error) {
+        console.error("Error fetching data from Strapi:", error);
+      }
+    };
+
+    fetchTours();
+  }, []);
+
+  //debug
+  // tourData.map((elm, i) => (console.log("http://localhost:1337"+elm.attributes.tripimage.data[0].attributes.url)));
+   return (
     <section className="layout-pt-xl layout-pb-xl ">
       <div className="container">
         <div className="row justify-between items-end y-gap-10">
@@ -47,7 +64,7 @@ export default function FeaturedToures() {
               >
                 <div className="tourCard__header">
                   <div className="tourCard__image ratio ratio-28:20">
-                    <img src={elm.imageSrc} alt="image" className="img-ratio" />
+                    <img src={"http://localhost:1337"+elm.attributes.tripimage.data[0].attributes.url} alt="image" className="img-ratio" />
                   </div>
 
                   <button className="tourCard__favorite">
@@ -62,7 +79,7 @@ export default function FeaturedToures() {
                   </div>
 
                   <h3 className="tourCard__title text-16 fw-500 mt-5">
-                    <span>{elm.title}</span>
+                    <span>{elm.attributes.title}</span>
                   </h3>
 
                   <div className="tourCard__rating text-13 mt-5">
@@ -80,11 +97,11 @@ export default function FeaturedToures() {
                   <div className="d-flex justify-between items-center border-1-top text-13 text-dark-1 pt-10 mt-10">
                     <div className="d-flex items-center">
                       <i className="icon-clock text-16 mr-5"></i>
-                      {elm.duration}
+                      {elm.attributes.duration>1 ? elm.attributes.duration+" days" : elm.attributes.duration+ " day"}
                     </div>
 
                     <div>
-                      From <span className="text-16 fw-500">₹ {elm.price}</span>
+                      From <span className="text-16 fw-500">₹ {elm.attributes.cost}</span>
                     </div>
                   </div>
                 </div>
