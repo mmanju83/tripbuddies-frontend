@@ -62,18 +62,17 @@ export default function Header3() {
           </div>
 
           <div className="header__right">
-            
-            <Link to="/register" className="ml-10 icon-center">
-            <i class="text-15 icon-plus mb-10"></i>
+
+            <Link to="https://strapi.io/" target="_blank" className="ml-10 icon-center">
+              <i class="text-15 icon-plus mb-10"></i>
               Create an Trip
             </Link>
             <Link to="/db-booking" className="ml-40 icon-center">
-            <i class="text-15 icon-pin mb-10"></i>
+              <i class="text-15 icon-pin mb-10"></i>
               Manage Trip
             </Link>
-
             <Link to="/db-listing" className="ml-40 icon-center">
-            <i class="text-15 icon-heart mb-10"></i>
+              <i class="text-15 icon-heart mb-10"></i>
               Wishlist
             </Link>
 
