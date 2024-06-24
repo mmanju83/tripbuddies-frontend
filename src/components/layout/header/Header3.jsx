@@ -62,22 +62,37 @@ export default function Header3() {
           </div>
 
           <div className="header__right">
-          { token ? (
             
-            <Link to="/" onClick={handleLogout} className="button -sm -outline-dark-1 rounded-200 text-dark-1 ml-30" >
-              Log Out
+            <Link to="/register" className="ml-10 icon-center">
+            <i class="text-15 icon-plus mb-10"></i>
+              Create an Trip
+            </Link>
+            <Link to="/db-booking" className="ml-40 icon-center">
+            <i class="text-15 icon-pin mb-10"></i>
+              Manage Trip
             </Link>
 
-              ) : ( 
-                <>
+            <Link to="/db-listing" className="ml-40 icon-center">
+            <i class="text-15 icon-heart mb-10"></i>
+              Wishlist
+            </Link>
+
+            {token ? (
+
+              <Link to="/" onClick={handleLogout} className="button -sm -outline-dark-1 rounded-200 text-dark-1 ml-30" >
+                Log Out
+              </Link>
+
+            ) : (
+              <>
                 <Link to="/register" className="ml-30">
-                Create an Account
+                  Create an Account
                 </Link>
-    
+
                 <Link to="/login" className="button -sm -outline-dark-1 rounded-200 text-dark-1 ml-30" >
                   Log in
                 </Link>
-                </>
+              </>
             )}
           </div>
         </div>
