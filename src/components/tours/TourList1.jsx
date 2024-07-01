@@ -4,6 +4,7 @@ import { speedFeatures } from "@/data/tourFilteringOptions";
 import { tourDataTwo } from "@/data/tours";
 import Stars from "../common/Stars";
 import Pagination from "../common/Pagination";
+import axios from "axios";
 
 import { Link } from "react-router-dom";
 
@@ -12,6 +13,23 @@ export default function TourList1() {
   const [ddActives, setDdActives] = useState(false);
   const [sidebarActive, setSidebarActive] = useState(false);
   const dropDownContainer = useRef();
+  const [tourData, setTourData] = useState([]);
+
+  useEffect(() => {
+    const fetchTours = async () => {
+      try {
+        const response = await axios.get("http://localhost:1337/api/trips?populate=*");
+        setTourData(response.data.data);
+        console.log(response.data.data);
+      } catch (error) {
+        console.error("Error fetching data from Strapi:", error);
+      }
+    };
+
+    fetchTours();
+  }, []);
+
+
   useEffect(() => {
     const handleClick = (event) => {
       if (
@@ -28,6 +46,11 @@ export default function TourList1() {
       document.removeEventListener("click", handleClick);
     };
   }, []);
+
+  // tourData.map((elm, i) => {
+  //   console.log(elm);
+  // });
+
   return (
     <section className="layout-pb-xl">
       <div className="container">
@@ -107,13 +130,14 @@ export default function TourList1() {
             </div>
 
             <div className="row y-gap-30 pt-30">
-              {tourDataTwo.map((elm, i) => (
+              {tourData.map((elm, i) => (
                 <div className="col-12" key={i}>
                   <div className="tourCard -type-2">
                     <div className="tourCard__image">
-                      <img src={elm.imageSrc} alt="image" />
+                      <img src={"http://localhost:1337"+elm.attributes.tripimage.data[0].attributes.url
+} alt="image" />
 
-                      {elm.badgeText && (
+                      {/* {elm.badgeText && (
                         <div className="tourCard__badge">
                           <div className="bg-accent-1 rounded-12 text-white lh-11 text-13 px-15 py-10">
                             {elm.badgeText}
@@ -127,7 +151,7 @@ export default function TourList1() {
                             FEATURED
                           </div>
                         </div>
-                      )}
+                      )} */}
 
                       <div className="tourCard__favorite">
                         <button className="button -accent-1 size-35 bg-white rounded-full flex-center">
@@ -139,11 +163,11 @@ export default function TourList1() {
                     <div className="tourCard__content">
                       <div className="tourCard__location">
                         <i className="icon-pin"></i>
-                        {elm.location}
+                        {"India, "+elm.attributes.state}
                       </div>
 
                       <h3 className="tourCard__title mt-5">
-                        <span>{elm.title}</span>
+                        <span>{elm.attributes.title}</span>
                       </h3>
 
                       <div className="d-flex items-center mt-5">
@@ -157,7 +181,7 @@ export default function TourList1() {
                         </div>
                       </div>
 
-                      <p className="tourCard__text mt-5">{elm.description}</p>
+                      {/* <p className="tourCard__text mt-5">{elm.description}</p>
 
                       <div className="row x-gap-20 y-gap-5 pt-30">
                         {elm.features?.map((elm2, i2) => (
@@ -168,14 +192,14 @@ export default function TourList1() {
                             </div>
                           </div>
                         ))}
-                      </div>
+                      </div> */}
                     </div>
 
                     <div className="tourCard__info">
                       <div>
                         <div className="d-flex items-center text-14">
                           <i className="icon-clock mr-10"></i>
-                          {elm.duration}
+                          {elm.attributes.duration>1 ? elm.attributes.duration+" days" : elm.attributes.duration+ " day"}
                         </div>
 
                         <div className="tourCard__price">
@@ -184,7 +208,7 @@ export default function TourList1() {
                           <div className="d-flex items-center">
                             From{" "}
                             <span className="text-20 fw-500 ml-5">
-                            ₹ {elm.price}
+                            ₹ {elm.attributes.cost}
                             </span>
                           </div>
                         </div>

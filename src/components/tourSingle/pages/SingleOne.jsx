@@ -9,6 +9,7 @@ import TourSingleSidebar from "../TourSingleSidebar";
 import Gallery1 from "../Galleries/Gallery1";
 import RoadMap2 from "../Roadmap2";
 import axios from "axios";
+import TourSlider from "@/components/tourSingle/TourSlider";
 import { Link } from "react-router-dom";
 
 export default function SingleOne({ tour }) {
@@ -57,7 +58,7 @@ export default function SingleOne({ tour }) {
                 <OthersInformation tourData={tourData} />
               </div>
 
-              <Overview />
+              <Overview tourData={tourData}/>
 
               <div className="line mt-60 mb-60"></div>
 
@@ -88,12 +89,14 @@ export default function SingleOne({ tour }) {
 
             <div className="col-lg-4 ">
               <div className="d-flex justify-end js-pin-content">
-                <TourSingleSidebar />
+                <TourSingleSidebar tourData={tourData}/>
               </div>
             </div>
           </div>
         </div>
       </section>
+      {/* <TourSlider tourData={tourData}/> */}
+
     </>
   );
 }

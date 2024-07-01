@@ -63,25 +63,24 @@ export default function Header3() {
 
           <div className="header__right">
 
-            <Link to="https://strapi.io/" target="_blank" className="ml-10 icon-center">
+            {token ? (
+              <>
+             <Link to="https://strapi.io/" target="_blank" className="ml-10 icon-center">
               <i class="text-15 icon-plus mb-10"></i>
-              Create an Trip
+                Create an Trip
             </Link>
             <Link to="/db-booking" className="ml-40 icon-center">
               <i class="text-15 icon-pin mb-10"></i>
-              Manage Trip
+                Manage Trip
             </Link>
             <Link to="/db-listing" className="ml-40 icon-center">
-              <i class="text-15 icon-heart mb-10"></i>
-              Wishlist
+               <i class="text-15 icon-heart mb-10"></i>
+                Wishlist
             </Link>
-
-            {token ? (
-
               <Link to="/" onClick={handleLogout} className="button -sm -outline-dark-1 rounded-200 text-dark-1 ml-30" >
                 Log Out
               </Link>
-
+            </>
             ) : (
               <>
                 <Link to="/register" className="ml-30">
