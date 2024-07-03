@@ -65,6 +65,10 @@ export default function Header3() {
 
             {token ? (
               <>
+              <Link to="https://strapi.io/" target="_blank" className="ml-10 icon-center">
+              <i class="text-15 icon-plus mb-10"></i>
+                Find My Companion
+            </Link>
              <Link to="https://strapi.io/" target="_blank" className="ml-10 icon-center">
               <i class="text-15 icon-plus mb-10"></i>
                 Create an Trip
