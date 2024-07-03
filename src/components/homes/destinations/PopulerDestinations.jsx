@@ -35,7 +35,7 @@ export default function PopulerDestinations() {
           {destinationsFive.map((elm, i) => (
             <Link
               key={i}
-              to="/destinations"
+              to={`/destinations/${elm.title}`}
               className="featureCard -type-1 overflow-hidden rounded-12 px-30 py-30 -hover-image-scale"
             >
               <div className="featureCard__image -hover-image-scale__image">

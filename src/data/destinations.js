@@ -342,7 +342,7 @@ export const destinationsSeven = [
 export const destinationsEight = [
   {
     id: 1,
-    name: "Om Beach",
+    name: "Goa",
     imgSrc: "/img/ombeach.jpg",
  
   },

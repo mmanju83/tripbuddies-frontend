@@ -39,7 +39,7 @@ export default function TrendingDestinationsTwo() {
           {destinationsEight.map((elm, i) => (
             <div key={i} className="col-lg-3 col-md-6">
               <Link
-                to="/tour-list-1"
+                to={`/tour-list-1/${elm.name}`}
                 className="featureCard -type-4 -hover-image-scale"
               >
                 <div className="featureCard__image ratio ratio-3:4 -hover-image-scale__image rounded-12">

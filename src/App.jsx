@@ -34,7 +34,7 @@ function App() {
           <Route path="/">
             <Route index element={<HomePage1 />} />
             <Route path="/home" element={<HomePage4 />} />
-            <Route path="/tour-list-1" element={<TourListPage1 />} />
+            <Route path="/tour-list-1/:title" element={<TourListPage1 />} />
             <Route path="/tour-list-2" element={<TourListPage2 />} />
             <Route path="/tour-single-1/:id" element={<TourSinglePage1 />} />
             <Route path="/booking-pages" element={<BookingPage />} />
@@ -42,7 +42,7 @@ function App() {
             <Route path="/db-booking" element={<DBBookingPage />} />
             <Route path="/db-listing" element={<DBListingPage />} /> 
             <Route path="/db-favorites" element={<DBFavoritesPage />} />
-            <Route path="/destinations" element={<DestinationsPage />} />
+            <Route path="/destinations/:activity" element={<DestinationsPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/404" element={<NotFoundPage />} />

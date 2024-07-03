@@ -132,6 +132,10 @@ export default function TourList1() {
             <div className="row y-gap-30 pt-30">
               {tourData.map((elm, i) => (
                 <div className="col-12" key={i}>
+                   <Link
+                    to={`/tour-single-1/${elm.id}`}
+                    className="tourCard -type-1 py-10 px-10 border-1 rounded-12  -hover-shadow"
+                  ></Link>
                   <div className="tourCard -type-2">
                     <div className="tourCard__image">
                       <img src={"http://localhost:1337"+elm.attributes.tripimage.data[0].attributes.url
@@ -181,9 +185,12 @@ export default function TourList1() {
                         </div>
                       </div>
 
-                      {/* <p className="tourCard__text mt-5">{elm.description}</p>
+              
+                  <p className="tourCard__text mt-5">{elm.attributes.description[0].children[0].text}</p>
+                  <p className="tourCard__text mt-5">{elm.attributes.description[1].children[0].text}</p>
 
-                      <div className="row x-gap-20 y-gap-5 pt-30">
+                
+                      {/* <div className="row x-gap-20 y-gap-5 pt-30">
                         {elm.features?.map((elm2, i2) => (
                           <div key={i2} className="col-auto">
                             <div className="text-14 text-accent-1">
@@ -192,7 +199,7 @@ export default function TourList1() {
                             </div>
                           </div>
                         ))}
-                      </div> */}
+                      </div>  */}
                     </div>
 
                     <div className="tourCard__info">
@@ -203,7 +210,7 @@ export default function TourList1() {
                         </div>
 
                         <div className="tourCard__price">
-                          <div>₹ {elm.fromPrice}</div>
+                          <div>₹5000 {elm.fromPrice}</div>
 
                           <div className="d-flex items-center">
                             From{" "}
