@@ -3,7 +3,6 @@ const options = [
   "Bike",
   "Treks",
   "Hiking",
-
   "Bag Packing Trips",
   "Beach Tours",
 ];

@@ -1,4 +1,4 @@
-import { destinationsFive } from "@/data/destinations";
+import { destinationsOne } from "@/data/destinations";
 
 import { Link } from "react-router-dom";
 import React from "react";
@@ -32,7 +32,7 @@ export default function PopulerDestinations() {
           data-aos-delay=""
           className="grid -type-3 pt-40 sm:pt-20"
         >
-          {destinationsFive.map((elm, i) => (
+          {destinationsOne.map((elm, i) => (
             <Link
               key={i}
               to={`/destinations/${elm.title}`}

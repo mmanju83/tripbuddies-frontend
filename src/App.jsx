@@ -18,6 +18,8 @@ import DestinationsPage from "./pages/pages/destinations";
 import LoginPage from "./pages/pages/login";
 import RegisterPage from "./pages/pages/register";
 import NotFoundPage from "./pages/pages/404";
+import FindmyCompanion from "./pages/pages/companion";
+
 
 function App() {
   useEffect(() => {
@@ -44,6 +46,7 @@ function App() {
             <Route path="/db-favorites" element={<DBFavoritesPage />} />
             <Route path="/destinations/:activity" element={<DestinationsPage />} />
             <Route path="/login" element={<LoginPage />} />
+            <Route path="/companion" element={<FindmyCompanion />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/404" element={<NotFoundPage />} />
             <Route path="/*" element={<NotFoundPage />} />

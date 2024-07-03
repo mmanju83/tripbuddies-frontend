@@ -4929,8 +4929,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featureCard.-type-1 .featureCard__content h4 {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .featureCard.-type-1.-hover-1 .featureCard__image {
@@ -13899,3 +13899,9 @@ button.gm-ui-hover-effect::after {
   text-align: center; 
   font-family: var(--font-primary) !important;
 }
+.h-18{ height:18px ;}
+.user-h img{height: 160px;     border-radius: 8px;}
+.d-contents{
+  display: contents;
+}
+.sel{ opacity: .3;}

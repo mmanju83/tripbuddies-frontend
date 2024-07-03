@@ -61,7 +61,7 @@ export default function TourList1(activity) {
         <div className="row y-gap-10 justify-between items-end y-gap-10 mb-50 ">
           <div className="col-auto">
             <h2 className="text-30">
-              Explore all things to do in India {new Date().getFullYear()}
+              Explore all things to do in India 
             </h2>
           </div>
 
