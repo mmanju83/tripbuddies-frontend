@@ -18,7 +18,7 @@ import DestinationsPage from "./pages/pages/destinations";
 import LoginPage from "./pages/pages/login";
 import RegisterPage from "./pages/pages/register";
 import NotFoundPage from "./pages/pages/404";
-import FindmyCompanion from "./pages/pages/companion";
+import FindmyCompanion from "./pages/pages/companion"
 
 
 function App() {
