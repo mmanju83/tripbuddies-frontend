@@ -19,6 +19,7 @@ import LoginPage from "./pages/pages/login";
 import RegisterPage from "./pages/pages/register";
 import NotFoundPage from "./pages/pages/404";
 import FindmyCompanion from "./pages/pages/companion"
+import CompanionProfile from "./pages/pages/profile"
 
 
 function App() {
