@@ -13,7 +13,7 @@ export default function Hero4() {
   const navigate = useNavigate();
 
   const queryParams = {
-    date: calender,
+    date: currentActiveDD,
     location: location,
     tourType: tourType
   };

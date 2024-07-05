@@ -33,7 +33,5 @@ X
 (src/pages/dashboard/db-booking/index.jsx,2/0/2002a8cc694fe31504b2aa4b015428ed44258184
 a
 1src/components/common/dropdownSearch/Calender.jsx,a/9/a9df54872dc0d44f655ff906f3d1121bfb266c63
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 O
 src/pages/pages/login/index.jsx,1/e/1eb6d4217342abccb21b1292a187f8aa0120877a
