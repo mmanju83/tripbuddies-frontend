@@ -10,10 +10,17 @@ import TourListPage1 from "./pages/tour-lists/tour-list-1";
 import TourListPage2 from "./pages/tour-lists/tour-list-2";
 import TourSinglePage1 from "./pages/tour-singles/tour-single-1";
 import BookingPage from "./pages/pages/booking-pages";
+import PersonalDetails from "./pages/pages/booking-pages/PersonalDetailsPage.jsx";
+import Confirmation from "./pages/pages/booking-pages/ConfirmationPage.jsx";
+// import Payment from "./pages/pages/booking-pages/PaymentPage.jsx";
 import DBMainPage from "./pages/dashboard/db-main";
 import DBBookingPage from "./pages/dashboard/db-booking";
 import DBListingPage from "./pages/dashboard/db-listing";
 import DBFavoritesPage from "./pages/dashboard/db-favorites";
+// import PersonalDetails from './components/pages/PersonalDetails.jsx';
+import Payment from './components/pages/Payment.jsx';
+// import Confirmation from './components/pages/Confirmation';
+import Successful from "./components/pages/Succesful.jsx";
 import DestinationsPage from "./pages/pages/destinations";
 import LoginPage from "./pages/pages/login";
 import RegisterPage from "./pages/pages/register";
@@ -52,6 +59,10 @@ function App() {
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/404" element={<NotFoundPage />} />
             <Route path="/*" element={<NotFoundPage />} />
+            <Route path="/personal-details" element={<PersonalDetails/> }/>
+            <Route path="/confirmation" element={<Confirmation/> }/>
+            <Route path="/payment" element={<Payment />}/>
+            <Route path="/success" element={<Successful />}/>
           </Route>
         </Routes>
         <ScrollTopBehaviour />
