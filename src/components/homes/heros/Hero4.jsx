@@ -13,10 +13,12 @@ export default function Hero4() {
   const navigate = useNavigate();
 
   const queryParams = {
-    date: currentActiveDD,
+    date: calender,
     location: location,
     tourType: tourType
   };
+
+  console.log(queryParams)
 // Function to convert query parameters object to query string
 const buildQueryString = (params) => {
   return Object.keys(params)

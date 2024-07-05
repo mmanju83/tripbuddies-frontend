@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import DatePicker, { DateObject } from "react-multi-date-picker";
 
 export default function Calender() {
@@ -6,6 +6,13 @@ export default function Calender() {
     new DateObject().setDay(10),
     new DateObject().setDay(12).add(0, "month"),
   ]);
+  useEffect(() => {
+    const fetchdates = async () => {
+      localStorage.setItem('dateFilter',dates)
+    };
+
+    fetchdates();
+  }, [dates]);
   return (
     <DatePicker
       inputClass="custom_input-picker"

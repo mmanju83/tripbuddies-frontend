@@ -11,13 +11,10 @@ export default function FeaturedToures() {
   useEffect(() => {
     const fetchTours = async () => {
       try {
-        const response = await axios.get("http://localhost:1337/api/trips?populate=*");
-        // const response = await axios.get(`${__STRAPI_CLIENT_URL__}`+'/api/trips?populate=*');
-
-        // const response = await fetch(`${__STRIPE_CLIENT_URL__}`+'/api/stripe/create-checkout-session', {
+        const response = await axios.get(`${__STRAPI_CLIENT_URL__}`+'/api/trips?populate=*');
 
         setTourData(response.data.data);
-
+        
         // console.log(response.data.data);
       } catch (error) {
         console.error("Error fetching data from Strapi:", error);
