@@ -47,6 +47,7 @@ function App() {
             <Route path="/destinations/:activity" element={<DestinationsPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/companion" element={<FindmyCompanion />} />
+            <Route path="/profile" element={<CompanionProfile />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/404" element={<NotFoundPage />} />
             <Route path="/*" element={<NotFoundPage />} />

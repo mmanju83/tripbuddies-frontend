@@ -73,7 +73,7 @@ export default function Header3() {
               <i class="text-15 icon-pin mb-10"></i>
                 Manage Trip
             </Link>
-            <Link to="/companion" className="ml-40 icon-center">
+            <Link to="/profile" className="ml-40 icon-center">
               <i class="text-15 mb-10"> <img className="h-18" src="/img/companion.svg" alt="companion icon" /> </i> 
               Find my Companion
             </Link>
